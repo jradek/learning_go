@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	fmt.Printf("writing an interpreter in go\n")
-	fmt.Printf("writing an interpreter in go 2\n")
+	fmt.Printf("writing an interpreter in go")
+	fmt.Printf("writing an interpreter in go 2")
 }
