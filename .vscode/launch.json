@@ -1,7 +1,6 @@
 {
     "version": "0.2.0",
     "configurations": [
-
         {
             "name": "Hello",
             "type": "go",
@@ -11,6 +10,27 @@
             "env": {
                 "GOPATH": "${workspaceFolder}/hello"
             }
-        }
+        },
+        {
+            "name": "MonkeyInterpreter",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}/waiig/src/monkey/main.go",
+            "env": {
+                "GOPATH": "${workspaceFolder}/waiig"
+            },
+        },
+        {
+            "name": "lexer test",
+            "type": "go",
+            "request": "launch",
+            "mode": "test",
+            "program": "${workspaceFolder}/waiig/src/monkey/lexer/lexer_test.go",
+            "env": {
+                "GOPATH": "${workspaceFolder}/waiig"
+            },
+        },
+
     ]
 }
